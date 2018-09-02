@@ -103,7 +103,7 @@ var handlers = {};
 
 // Message handler
 handlers.hello = function(data, callback) {
-    callback(200, {message: 'Hello'});
+    callback(200, {message: 'Hello World'});
 };
 
 // Not found handler
